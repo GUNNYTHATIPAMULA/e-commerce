@@ -70,13 +70,21 @@
 .j{
     margin-top:30px ;
 }
-@media screen and (min-width:830px) {
-    .form{
-       display: none !important;
+@media screen and (max-width:830px) {
+    .ban{
+        display: flex;
+        flex-wrap: wrap;
     }
-    #logo{
-        width: 10px !important;
-        height: 30px !important;
+    .two{
+        display: flex;
+        margin-left: 0;
+    }
+    .sub{
+        width: 60%;
+        height: 170px;
+    }
+    .j{
+        margin-top: 0;
     }
 
 }
