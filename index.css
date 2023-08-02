@@ -76,7 +76,12 @@
         flex-wrap: wrap;
     }
     .one{
-        height: 250px;
+        height: 220px;
+
+    }
+    #one{
+        width: 800px;
+        height: 220px;
     }
     .two{
         display: flex;
