@@ -56,7 +56,7 @@
 #sid{
     height: 35px;
     width: 30px;
-    margin-right: 25px;
+    margin-right: 10px;
 }
 .ban{ 
     margin-top: 30px;
@@ -75,13 +75,23 @@
         display: flex;
         flex-wrap: wrap;
     }
+    .one{
+        height: 250px;
+    }
     .two{
         display: flex;
         margin-left: 0;
     }
+    #brand{
+       
+        margin-left: 0;
+    }
+    #logo{
+        margin-left: 0;
+    }
     .sub{
         width: 60%;
-        height: 170px;
+        height: 150px;
     }
     .j{
         margin-top: 0;
