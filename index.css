@@ -72,10 +72,10 @@
 }
 .secu{
     display: flex;
-    width: 90%;
-    margin: 0 auto 0 auto;
+    width: 100%;
     margin-top: 30px;
-    
+    margin-left: 0;
+    margin-right: 0;
 }
 .con{
     margin-top: 25px;
@@ -99,6 +99,15 @@
 #po{
     width: 45px;
     height: 45px;
+}
+.secu{
+    background-color: aliceblue;
+    width: 100%;
+    margin: 30px auto 0 auto;
+}
+.in{
+    width: 100%;
+    background-color: aliceblue;
 }
 @media screen and (max-width:1199px) {
     .ban{
@@ -131,16 +140,28 @@
     .j{
         margin-top: 0;
     }
+    .gap{
+        height: 40px;
+    }
     .secu{
         background-color: azure;
         margin-left: 0;
         display: inline-block;
         width: 100%;
     }
-    .gap{
-        height: 50px;
-    }
+
     .cc{
         margin-left: 0%;
     }
 }
+@media screen and (max-width: 1199px) and (min-width: 600px) {
+    .gap{
+        height: 140px;
+
+    }
+    .secu{
+        background-color: azure;
+        margin-left: 0;
+        display: inline-block;
+        width: 100%;}
+  }
