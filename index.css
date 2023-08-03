@@ -26,8 +26,9 @@
 #buy{
     width:100px;
     height: 38px;
-    border-radius: 10px;
-    background-color: rgb(47, 137, 47);
+    border: 0;
+    border-radius: 5px;
+    background-color: rgb(54, 121, 54);
     color: white;
 }
 #logo{
@@ -112,11 +113,12 @@
 .back{
     background-image: url(img/cc.webp);
     background-repeat: no-repeat;
-    height: 600px;
+    height: 500px;
     width: 240px;
 }
 .shop{
     display:flex ;
+    height: 500px;
 }
 #a{
     padding-top: 60.5px !important;
@@ -136,6 +138,17 @@
 }
 .ml{
     right: 10px;
+}
+.wid{
+    height: 10px;
+}
+.sib{
+    display: flex;
+    margin-left: 90px;
+    margin-top: 60px;
+}
+#bimg{
+    margin-left: 65px;
 }
 @media screen and (max-width:1199px) {
     .ban{
@@ -190,6 +203,14 @@
     .card{
         width: auto;
     }
+    #sib{
+       padding-top: 450px;
+       margin-left: 0;
+    }
+    #bimg{
+        margin-left: 0;
+    }       
+
 }
 @media screen and (max-width: 860px) and (min-width: 320px){
     .card{
@@ -198,6 +219,13 @@
     }
     .ml{
         margin-left: 30px;
+    }
+    #sib{
+        padding-top: 920px;
+        margin-left: 0;}
+    .sib{
+        display: flex;
+        flex-wrap:wrap ;
     }
 }
 @media screen and (max-width: 1199px) and (min-width: 600px) {
@@ -210,4 +238,25 @@
         margin-left: 0;
         display: inline-block;
         width: 100%;}
+        .sib{display: flex;
+        flex-wrap: wrap;}
+    #bimg{
+        margin-left: 50px;
+    }
   }
+@media screen and (max-width:1040px) and (min-width:300px) {
+    #bimg{
+        margin-left: 30px;
+        margin-top: 55px;
+    }
+    #bro{
+        padding-top: 55px;
+    }
+    .sib{
+        margin-left: 10px;
+    }
+    .plus{
+        margin-top: 55px;
+        margin-left: 30px;
+    }
+}
