@@ -123,7 +123,7 @@
 #a{
     padding-top: 60.5px !important;
 }
-.card{
+.pro{
     width: 22%;
     margin-left: 28px;
     margin-top: 21.5px;
@@ -149,6 +149,28 @@
 }
 #bimg{
     margin-left: 65px;
+}
+.sell {
+    display: flex;
+    margin-left: 30px;
+}
+.noob{
+    margin-top: 50px;
+    margin-left: 40px;
+    height: auto;
+}
+.img-fluid{
+    height: auto;
+}
+.prod{
+    height: auto;
+}
+.but{border-radius: 5px;
+background-color: rgb(215, 170, 22);
+}
+.seal{
+    display: flex;
+    margin-left: 30px;
 }
 @media screen and (max-width:1199px) {
     .ban{
@@ -200,7 +222,7 @@
     .shop{
         flex-wrap: wrap;
     }
-    .card{
+    .pro{
         width: auto;
     }
     #sib{
@@ -209,7 +231,16 @@
     }
     #bimg{
         margin-left: 0;
-    }       
+    }
+    .sell{
+        flex-wrap: wrap;
+    }
+    .seal{
+        flex-wrap: wrap;
+    }
+    .noob{
+        width: 95%;
+    }
 
 }
 @media screen and (max-width: 860px) and (min-width: 320px){
@@ -226,6 +257,16 @@
     .sib{
         display: flex;
         flex-wrap:wrap ;
+    }
+    .noob{
+        width: 80%;
+        margin-left: 30px;
+    }
+    .img-fluid{
+        padding-left: 40px;
+    }
+    .pl{
+        padding-left:20px ;
     }
 }
 @media screen and (max-width: 1199px) and (min-width: 600px) {
