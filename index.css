@@ -246,7 +246,7 @@
   }
 @media screen and (max-width:1040px) and (min-width:300px) {
     #bimg{
-        margin-left: 30px;
+        margin-left: 50px;
         margin-top: 55px;
     }
     #bro{
@@ -257,6 +257,6 @@
     }
     .plus{
         margin-top: 55px;
-        margin-left: 30px;
+        margin-left:50px;
     }
 }
